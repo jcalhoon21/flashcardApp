@@ -1,0 +1,19 @@
+.navContainer {
+  background-color: black;
+  color: white;
+  padding: 2%;
+  margin: auto;
+  position: sticky;
+}
+
+.logo {
+  text-align: left;
+  display: inline-block;
+  width: 50%;
+}
+
+.menu {
+  text-align: right;
+  display: inline-block;
+  width: 50%;
+}
