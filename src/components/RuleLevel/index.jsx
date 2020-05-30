@@ -3,7 +3,7 @@ import './RuleLevelStyles.css';
 
 const RuleLevel = () => {
   return(
-    <div className="container">
+    <div>
       <div className="cards">
         High School Rules
       </div>
