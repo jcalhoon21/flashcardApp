@@ -3,19 +3,19 @@ import './RuleLevelStyles.css';
 
 const RuleLevel = () => {
   return(
-    <div>
-      <div>
-       High School Rules
-     </div>
-     <div>
-       NCAAW Rules
-     </div>
-     <div>
-       NCAAM Rules
-     </div>
-     <div>
-       NBA Rules
-     </div>
+    <div className="container">
+      <div className="cards">
+        High School Rules
+      </div>
+      <div className="cards">
+        NCAAW Rules
+      </div>
+      <div className="cards">
+        NCAAM Rules
+      </div>
+      <div className="cards">
+        NBA Rules
+      </div>
     </div>
   )
 }
