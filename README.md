@@ -1,4 +1,6 @@
-## Available Scripts
+## Local Installation
+`npm i axios npm react-router-dom`
+
 
 In the project directory, you can run:
 
