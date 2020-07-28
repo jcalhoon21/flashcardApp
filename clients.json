@@ -1,0 +1,32 @@
+[
+  {
+    "name": "Sharp",
+    "id": 1
+  },
+  {
+    "name": "MedPoint",
+    "id": 2
+  },
+  {
+    "name": "Centene",
+    "id": 3,
+    "healthplan": [
+      {
+      "name": "Arizona",
+      "nameKey": "az"
+      },
+      {
+        "name": "Ohio",
+        "nameKey": "oh"
+      },
+      {
+        "name": "California",
+        "nameKey": "ca"
+      },
+      {
+        "name": "Texas",
+        "nameKey": "tx"
+      }
+    ]
+  }
+]

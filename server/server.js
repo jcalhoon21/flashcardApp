@@ -32,3 +32,12 @@ boot(app, __dirname, function(err) {
   if (require.main === module)
     app.start();
 });
+
+var xhttp = new XMLHttpRequest();
+xhttp.onreadystatechange = function() {
+    if (this.readyState == 4 && this.status == 200) {
+      console.log(xhttp.responseText);  
+    }
+};
+xhttp.open("GET", "clients.json", true);
+xhttp.send();
